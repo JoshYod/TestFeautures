@@ -51,15 +51,23 @@ public class SwitchCases{
                 default -> { System.out.println("Terminating instance"); keepGoing = false; }
             }//end switch
         }//end while
-
     }//end main
+}//end class
 
 /*
+Switch Cases
+    An alternative to If/else statements
+
+Each case using ":" is like their own seperate if statement
+    Need a break statement if you dont want them to continue to the next case
+
+Each case using "->" is a ":" case but with a built in break statement
+
+The default case is like an else statment
+    If no other case gets activated then this one will be activated
+
 If you want to loop use a boolean variable
     In this case it is KeepGoing
 
-
-
+Made by JoshYod 12/19/2025
 */
-
-}//end class
