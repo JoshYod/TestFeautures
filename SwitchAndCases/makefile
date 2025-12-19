@@ -1,3 +1,9 @@
+runJava: SwitchCases.class
+	java SwitchCases
+
+SwitchCases.class: SwitchCases.java
+	javac SwitchCases.java
+
 clean:
 	rm *.class
 
