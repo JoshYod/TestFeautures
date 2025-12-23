@@ -4,3 +4,7 @@ In java packages are notated at the top of each file and are usually stored in a
 This seperates the files from each other so that they are not loading in all files at once and only the files in their package.
 Each package can be imported with an import statement. "import ExampplePackage.*;"
 If you want to import a specific file use the file path within the package. "import ExamplePackage.ExampleFile;"
+### How to run
+* Change Directory to Packages
+* javac JavaPackage/*.java
+* java JavaPackage.Main
